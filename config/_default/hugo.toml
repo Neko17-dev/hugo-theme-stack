@@ -1,0 +1,16 @@
+baseURL                = "http://localhost:1313/"
+languageCode           = "zh-cn"
+defaultContentLanguage = "zh"
+title                  = "星离技术学习笔记"
+hasCJKLanguage         = true
+
+[pagination]
+    pagerSize = 5
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    page = ["HTML"]
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"

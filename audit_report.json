@@ -1,0 +1,12 @@
+{
+  "compliance_status": "PASSED",
+  "beian_id": "津ICP备2026009218号",
+  "site_title": "星离技术学习笔记",
+  "checks": {
+    "miit_link_valid": true,
+    "text_match_valid": true,
+    "element_visible": true,
+    "interactive_features_detected": false
+  },
+  "error_message": ""
+}

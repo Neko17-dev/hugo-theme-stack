@@ -1,0 +1,10 @@
+# 左侧导航栏菜单配置
+# 主页链接（主动配置，确保显示）
+[[main]]
+    identifier = "home"
+    name       = "主页"
+    url        = "/"
+    weight     = -100
+
+    [main.params]
+        icon = "home"

@@ -63,8 +63,18 @@ SortBy         = "default"
         caution   = "🚨"
 
 [widgets]
-    homepage = []
-    page     = []
+    homepage = [
+        {type = "search"},
+        {type = "archives"},
+        {type = "categories"},
+        {type = "tag-cloud"}
+    ]
+    page = [
+        {type = "search"},
+        {type = "archives"},
+        {type = "categories"},
+        {type = "tag-cloud"}
+    ]
 
 [opengraph.twitter]
     site = ""
@@ -98,8 +108,8 @@ SortBy         = "default"
         functional = true
 
 [comments]
-    enabled  = true
-    provider = "disqus"
+    enabled  = false
+    provider = ""
 
     [comments.artalk]
         serverUrl = ""

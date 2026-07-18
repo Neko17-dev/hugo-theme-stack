@@ -1,1 +1,19 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+/* =====================================================
+   Sticky Footer — 无论文章多少，备案号始终贴底显示
+   ===================================================== */
+
+/* 让 main.main 纵向拉伸以填满 .main-container 的高度
+   （.main-container 已具备 min-height:100vh，
+     但其 align-items:flex-start 导致 main 不拉伸） */
+main.main {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+/* 将 .site-footer 自动推到 main 的最底部 */
+footer.site-footer {
+    margin-top: auto;
+}
